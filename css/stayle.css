@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+ padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+html,body{
+    scroll-behavior: smooth ;
+}
+body{
+    background-color:rgba(0, 0, 0, 1); 
+} 
+.header-text-{
+    width: 107px;
+height: 16px;
+top: 14px;
+left: 1408px;
+gap: 0px;
+opacity: 0px;
+font-family: PT Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.53px;
+color: rgba(150, 150, 150, 1);
+
+}
+.daraja{
+    
+position: sticky;
+ top: 0;
+}
+header{
+ background-color: black;  
+
+}
+.header-text{
+ 
+    font-family: "PT Sans", sans-serif;
+font-size: 10px;
+font-weight: 400;
+color: 
+rgba(150, 150, 150, 1);
+}
+    .head{
+        display: flex;
+        justify-content: space-between;
+        padding: 14px 0px 14px;
+    }
+    .head-{
+        display: flex;
+        gap: 20px;
+    }
+    nav{
+        background-color: rgba(15, 15, 15, 1);
+        padding: 15px 0px 16px;
+    }
+    .nav-bag{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav_{
+        display: flex;
+        gap: 50px;
+    }
+    .m-enu{
+        display: flex;
+        gap: 35px;
+    }
+    .menu-text{
+       padding: 4px;
+         height: 30px;
+        text-decoration: none;
+        color:  rgba(150, 150, 150, 1);
+        font-family: "PT Sans", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.12px;
+text-align: left;
+
+    }
+    .Lupa{
+        display: flex;
+        gap: 20px;
+    }
+    .menu-text:hover{
+      box-shadow:0px 0px 20px 0px rgba(255, 255, 255, 0.493);;
+      background: rgb(0, 0, 0);
+      color: white;
+      transition: 0.6s;
+      transform: translateY(3px);
+    }
+   section{
+    height: 624px;
+    background-image: url(../img/boy.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+   }
+   .section-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+   }
+.logo-img{
+    width: 290px;
+height: 290px;
+}
+.free{
+    padding-top: 30px;
+    display:flex;
+    justify-content: center;
+}
+.section-text{
+    padding-top: 60px;
+ display: flex;
+ justify-content: center;
+}
+.section_text{
+    width: 600px;
+height: 96px;
+font-family: PT Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color:rgba(255, 255, 255, 1);
+text-align: center;
+}
+.art-1{
+width: 600px;
+height: 430px;
+background:rgba(0, 0, 0, 1);
+
+}
+.art-2{
+    width: 600px;
+    height: 430px;
+   background-image: url(../img/Rectangle\ 8.png) ;
+    background-size: 600px 430px;
+    }
+article{
+    display: flex;
+
+ }
+.text-1{
+    font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 47.99px;
+text-align: center;
+color: 
+rgba(255, 255, 255, 1);
+}
+
+.art-icon{
+    padding-top: 10px;
+    text-align: center;
+}
+.soatlar{
+    padding-top: 20px;
+    display:flex;
+    gap: 10px;
+}
+.Soat{
+width: 180px;
+height: 220px;
+background: rgba(25, 27, 28, 1);
+
+}
+.Soat:hover{
+    box-shadow: inset 180px  0 210px 0 rgb(9, 9, 9);
+    transform: translateY(-8px);
+    transition: 1s;
+}
+.narx{
+   
+    background-color: rgb(0, 0, 0);
+    color: rgba(208, 208, 208, 1);
+    font-family: "Playfair Display", serif;
+    width: 84.92px;
+}
+.art_2{
+    padding-top: 210px;
+   display: flex;
+   justify-content: center  ;
+}
+.art-2_text{
+    width: 410.18px;
+height: 39px;
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 47.99px;
+text-align: center;
+    color:    rgba(255, 255, 255, 1);
+ 
+}
+.b-g-text{
+color: 
+rgba(255, 255, 255, 1);
+}
+.b-g-1{ display: flex;
+    justify-content: center;
+    width: 138px;
+    height: 30px;
+  
+   border: 3px solid   rgba(255, 255, 255, 1);
+}
+.b-g-1:hover{
+   transform: translateY(-5px);
+
+   box-shadow:0px 0px 20px 10px rgba(255, 255, 255, 0.493);
+   transition: 1s;
+}
+.button{
+   background: none;
+   border: none;
+}
+.cert-1{ 
+     width: 600px;
+    height: 430px;
+    background-image: url(../img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.cart-2{
+    width: 600px;
+    height: 430px;
+    background: rgba(0, 0, 0, 1); 
+}
+.cart-text{
+padding-top: 60px;
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 400;
+line-height: 47.99px;
+text-align: center;
+color:rgba(255, 255, 255, 1);
+}
+
+.cart-text2{
+padding-top: 10px;
+width: 471px;
+height: 173px;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+color:rgba(255, 255, 255, 1) ;
+font-family: "PT Sans", sans-serif;
+}
+
+.but{
+    border: 1px solid 
+    rgba(255, 255, 255, 1);
+    margin-top: 20px;
+    background: none;
+}
+.but:hover{
+box-shadow:0 0  10px 0 rgb(255, 0, 0);
+transform: translateY(-3px); 
+transition: 0.6s
+}
+.bag{
+padding: 12px 28px 12px 28px;
+gap: 10px;
+border: 1px 0px 0px 0px;
+color: 
+rgba(255, 255, 255, 1);
+}
+.B-u-t{
+    display: flex;
+    justify-content: center;
+}
+.bag:hover{
+    box-shadow:0px 0px 20px 0px rgba(255, 255, 255, 0.493);;
+    background: rgb(0, 0, 0);
+    color: white;
+    transition: 0.6s;
+    transform: translateY(3px);
+}
+.begona{
+    display: flex;
+    justify-content: center;
+}
+.bge{
+    color: rgba(255, 255, 255, 1);
+    width: 255px;
+     height: 23px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.29px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    background-color: black;
+}
+.cart-text-2{
+    display: flex;
+    justify-content: center ;
+}
+.button-img{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.begona-taxt{
+    padding-top: 20px;
+    font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 47.99px;
+color: rgba(255, 255, 255, 1);
+}
+.begona-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.aside-text{
+    font-family: "Playfair Display", serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 21.33px;
+text-align: left;
+color:rgba(208, 208, 208, 1); 
+padding-top: 10px;
+}
+aside{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.img-bac{
+    background-color:rgba(25, 27, 28, 1);
+}
+.img-bac:hover{
+    box-shadow: inset 180px  0 210px 0 rgb(9, 9, 9);
+    transform: translateY(-8px);
+    transition: 1s;
+}
+.two-div{
+    display: flex;
+    gap: 30px;
+}
+footer{
+    margin-top: 25px;
+    background-color:   rgba(15, 15, 15, 1); 
+}
+
+.footer-logo{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer-text{
+    font-family: "Playfair Display", serif;  
+font-size: 36px;
+font-weight: 700;
+line-height: 47.99px;
+text-align: center;
+color:rgba(255, 255, 255, 1); 
+}
+.footer-img{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.lupa1{
+    display: flex;
+    justify-content: space-between;
+}
+.l_upa{
+    display: none;
+}
+@media(max-width:1000px){
+    .head{
+        display: block;
+       padding-top: 10px;
+        
+    }
+    .head-{
+       padding-bottom: 10px;
+    }
+    .menu{
+        display: inline;
+    }
+    .nav_{
+        display: inline;
+    }
+.nav-bag{
+    display: inline;
+}
+.m-enu{
+    padding: 10px 10px 10px;
+    display:block;
+    text-align: center;
+}
+.Lupa{
+   display: none;
+}
+.logo-img{
+        width: 150px;
+        height: 150px;
+}
+section{
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+   
+}
+.but{
+    margin-top: 130px;
+}
+article{
+    display: ruby;
+}
+.art-1{
+    width: 300px;
+    height: 300px;
+}
+.art-2{
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+.img-soat{
+    width: 85px;
+    
+}
+.Soat{
+    height: 100px;
+    width: 95px;
+    background: rgba(25, 27, 28, 1);
+}
+.art_2{
+    padding-top: 85px;
+    
+}
+.cart-2{
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+   
+}
+.cert-1{
+    margin-top: 15px;
+    width: 300px;
+    height: 300px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    display: ruby;
+}
+.begona-taxt{
+  text-align: center;
+}
+.two-div{
+    gap: 14px;
+}
+.footer-logo{
+ display: ruby;  
+}
+.masofa {
+    width: 100px;
+    height: 100px;
+}
+.img-bac{
+    width: 100px;
+    height: 120px;
+}
+.l_upa{
+    display: block;
+}}
